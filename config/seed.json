@@ -4,8 +4,8 @@
     "User": [
       {
         "email": "lcjcruralhelpdesk@gmail.com",
-        "username": "lcjcruralhelpdesk",
-        "password": "testing",
+        "username": "admin",
+        "password": "password",
         "first_name": "Attorney",
         "last_name": "General"
       }
@@ -18,8 +18,8 @@
     "User": [
       {
         "email": "lcjcruralhelpdesk@gmail.com",
-        "username": "lcjcruralhelpdesk",
-        "password": "testing",
+        "username": "{{= env.USERNAME }}",
+        "password": "{{= env.PASSWORD }}",
         "first_name": "Attorney",
         "last_name": "General"
       }
