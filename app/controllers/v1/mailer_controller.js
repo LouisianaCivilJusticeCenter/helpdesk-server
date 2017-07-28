@@ -1,5 +1,5 @@
 'use strict';
-
+require('dotenv').config();
 const Nodal = require('nodal');
 const mandrill = require('node-mandrill')(process.env.MANDRILL_API);
 const emailTo = process.env.EMAIL_TO;

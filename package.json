@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "dotenv": "^4.0.0",
     "nodal": "0.13.3",
     "node-mandrill": "^1.0.1",
     "underscore": "^1.8.3"

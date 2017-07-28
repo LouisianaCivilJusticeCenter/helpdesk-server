@@ -4,10 +4,24 @@
     "User": [
       {
         "email": "lcjcruralhelpdesk@gmail.com",
-        "username": "admin",
-        "password": "password",
+        "username": "{{= env.USERNAME }}",
+        "password": "{{= env.PASSWORD }}",
         "first_name": "Attorney",
         "last_name": "General"
+      },
+      {
+        "email": "testing1@gmail.com",
+        "username": "username1Test",
+        "password": "testing",
+        "first_name": "user1TestFirst",
+        "last_name": "user1TestLast"
+      },
+      {
+        "email": "testing2@gmail.com",
+        "username": "username2Test",
+        "password": "testing",
+        "first_name": "user2TestFirst",
+        "last_name": "user2TestLast"
       }
     ]
   },
@@ -22,6 +36,20 @@
         "password": "{{= env.PASSWORD }}",
         "first_name": "Attorney",
         "last_name": "General"
+      },      
+      {
+        "email": "testing1@gmail.com",
+        "username": "username1Test",
+        "password": "testing",
+        "first_name": "user1TestFirst",
+        "last_name": "user1TestLast"
+      },
+      {
+        "email": "testing2@gmail.com",
+        "username": "username2Test",
+        "password": "testing",
+        "first_name": "user2TestFirst",
+        "last_name": "user2TestLast"
       }
     ]
   }
